@@ -81,3 +81,24 @@ h1 {
     font-family: "ObviouslyVariable";
     font-size : 10vh;
 }
+text {
+    font-size : 1.25rem;
+}
+button {
+    gap : 1rem;
+    display: flex;
+    background-color: var(--color-bouton);
+    color: var(--color-bg);
+    border: none;
+    border-radius: var(--border-radius);
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+#stars {
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    gap: 0.5rem;
+}
